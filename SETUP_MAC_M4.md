@@ -47,6 +47,11 @@ Install the macOS-specific requirements (without X-Pose, which doesn't support m
 pip install -r requirements_macOS.txt
 ```
 
+**If you encounter "No module named 'requests'" error:**
+```bash
+pip install requests transformers
+```
+
 ### 4. Download Pretrained Weights
 The models are approximately 3GB. Download using HuggingFace CLI:
 
